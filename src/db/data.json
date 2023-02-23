@@ -1,0 +1,78 @@
+{
+  "subjects": [
+    {
+      "id": 1,
+      "title": "javascript"
+    },
+    {
+      "id": 2,
+      "title": "php"
+    },
+    {
+      "id": 3,
+      "title": "react"
+    },
+    {
+      "title": "mysql",
+      "id": 4
+    }
+  ],
+  "functions": [
+    {
+      "id": 1,
+      "subjects": 1,
+      "name": "map()",
+      "type": "array",
+      "systex": "배열변수.map(li => li + 1)",
+      "desc": "배열요소의 형태를 변경하여 새로운 배열로 반환."
+    },
+    {
+      "id": 2,
+      "subjects": 1,
+      "name": "filter()",
+      "type": "array",
+      "systex": "배열변수.filter(li => li + 1)",
+      "desc": "배열요소중 조건에 맞는 요소 하나만을 새로운 배열로 반환."
+    },
+    {
+      "id": 3,
+      "subjects": 1,
+      "name": "replace()",
+      "type": "string",
+      "systex": "문자열.replace('a', 'b')",
+      "desc": "문자열에 있는 a를 b로 변경."
+    },
+    {
+      "id": 4,
+      "subjects": 2,
+      "name": "strlen()",
+      "type": "string",
+      "systex": "strlen(문자열)",
+      "desc": "문자열의 길이를 반환해줌."
+    },
+    {
+      "id": 5,
+      "subjects": 2,
+      "name": "var_dump()",
+      "type": "모든 타입",
+      "systex": "var_dump(변수)",
+      "desc": "데이터의 값과 타입을 반환."
+    },
+    {
+      "id": 6,
+      "subjects": 2,
+      "name": "srtrtoupper()",
+      "type": "string",
+      "systex": "strtoupper(변수)",
+      "desc": "대문자로 변경 후 반환."
+    },
+    {
+      "id": 7,
+      "subjects": 3,
+      "name": "useState()",
+      "type": "Hook함수",
+      "systex": "const [state, setState] = useState(초기값)",
+      "desc": "상태 값과 상태를 업데이트 해주는 함수를 배열로 반환."
+    }
+  ]
+}
